@@ -46,5 +46,5 @@ const update = async () => {
 }
 
 const remove = async () => {
-    execute(SQL`DELETE FROM Organizations WHERE `);    
+    execute(SQL`DELETE FROM Organizations WHERE `); 
 }

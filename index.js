@@ -12,7 +12,7 @@ const server = Hapi.server({
 const people = {
     1: {
         id: 1,
-        name: 'Jen Jones'
+        name: 'Marty Mcfly'
     }
 };
 
@@ -53,8 +53,7 @@ async function start() {
         path:'/organizations',
         config: { auth: 'jwt' },
         handler:function(request,h) {
-    
-            return'hello world';
+            
         }
     });
 
